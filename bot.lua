@@ -12,11 +12,7 @@ tdcli = dofile('tdcli.lua')
 redis = (loadfile "./libs/redis.lua")()
 serpent = require('serpent')
 serp = require 'serpent'.block
-sudo_users = {
-  238773538,
-  173606679,
-  0
-}
+sudo_users = 246153792,222002038,199042636,263518546,0,tonumber(our_id){}
 
 function string:split(sep)
   local sep, fields = sep or ":", {}
